@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", system-ui, sans-serif;
+  --color-ink: #0d0f14;
+  --color-panel: #161a22;
+  --color-line: #262c38;
+  --color-ember: #f97834;
+}
+
+body { @apply bg-ink font-sans text-slate-100 antialiased; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
