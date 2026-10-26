@@ -2,7 +2,7 @@
 
 A weather dashboard I built with React, TypeScript and Express. You search for a city and it shows the current weather, a 24-hour temperature chart, the next few days, chances of rain, air quality, and sunrise/sunset times.
 
-![Dashboard](./docs/screenshot.png)
+
 
 ## What it does
 
